@@ -1,10 +1,37 @@
 body {
   margin: 0;
-  padding: 0;
   font-family: sans-serif;
 }
 
-#map {
+.tab-menu {
+  display: flex;
+  background-color: #222;
+}
+
+.tab-button {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  background: #333;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.tab-button.active {
+  background: #555;
+  font-weight: bold;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+.map-container {
   height: 600px;
   width: 100%;
 }
