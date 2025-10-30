@@ -13,8 +13,18 @@
 </head>
 
 <body>
-  <h1>Vancouver Map (Node + Leaflet)</h1>
-  <div id="map"></div>
+  <div class="tab-menu">
+    <button class="tab-button active" data-target="vancouver">Vancouver Map</button>
+    <button class="tab-button" data-target="geojson">GeoJSON Demo</button>
+  </div>
+
+  <div id="vancouver" class="tab-content active">
+    <div id="map-vancouver" class="map-container"></div>
+  </div>
+
+  <div id="geojson" class="tab-content">
+    <div id="map-geojson" class="map-container"></div>
+  </div>
 
   <!-- Leaflet JS -->
   <!-- <script src="/leaflet/leaflet.js"></script> -->

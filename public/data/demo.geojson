@@ -1,0 +1,48 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": { "name": "Area A" },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [[
+            [-123.15, 49.25],
+            [-123.10, 49.25],
+            [-123.10, 49.28],
+            [-123.15, 49.28],
+            [-123.15, 49.25]
+          ]]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": { "name": "Area B" },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [[
+            [-123.12, 49.27],
+            [-123.09, 49.27],
+            [-123.09, 49.30],
+            [-123.12, 49.30],
+            [-123.12, 49.27]
+          ]]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": { "name": "Area C" },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [[
+            [-123.18, 49.26],
+            [-123.16, 49.26],
+            [-123.16, 49.28],
+            [-123.18, 49.28],
+            [-123.18, 49.26]
+          ]]
+        }
+      }
+    ]
+  }
+  
